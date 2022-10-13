@@ -1,18 +1,27 @@
 {
   "name": "convertmymoney",
   "version": "1.0.0",
-  "description": "",
+  "description": "Projeto conversor de moedas",
   "main": "index.js",
-  //"scripts": {
-  // "test": "jest",
-  //"start": "node index.js"
-  "author": "",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "convert",
+    "money"
+  ],
+  "author": "Gabriel Lopes",
   "license": "ISC",
   "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.1"
+    "axios": "^0.18.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
   },
   "devDependencies": {
-    "jest": "^29.1.2"
+    "jest": "^24.7.1"
+  },
+  "jest": {
+    "collectCoverage": true
   }
 }
